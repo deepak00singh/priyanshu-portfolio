@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <a href="#home" className="text-lg font-bold tracking-tight">
-          Raunak<span className="text-primary">.</span>
+          Priyanshu<span className="text-primary">.</span>
         </a>
 
         <ul className="hidden items-center gap-7 md:flex">

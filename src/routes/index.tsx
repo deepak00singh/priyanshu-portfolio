@@ -39,13 +39,13 @@ import aboutVisual from "@/assets/about-visual.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Raunak Kumar Singh — B.Tech AIML Student & Aspiring AI/ML Developer" },
+      { title: "Priyanshu Saraswat — B.Tech AIML Student & Aspiring AI/ML Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Raunak Kumar Singh, second-year B.Tech AIML student at GLA University Mathura, exploring Python, machine learning, data analysis and software development.",
+          "Portfolio of Priyanshu Saraswat, second-year B.Tech AIML student at GLA University Mathura, exploring Python, machine learning, data analysis and software development.",
       },
-      { property: "og:title", content: "Raunak Kumar Singh — AIML Student Portfolio" },
+      { property: "og:title", content: "Priyanshu Saraswat — AIML Student Portfolio" },
       {
         property: "og:description",
         content:
@@ -435,7 +435,7 @@ function Index() {
     } catch (err) {
       const detail = err instanceof Error ? err.message : "";
       setError(
-        `Couldn't send your message${detail ? ` (${detail})` : ""}. Please email me directly at singhraunak81026@gmail.com.`,
+        `Couldn't send your message${detail ? ` (${detail})` : ""}. Please email me directly at priyanshusaraswat51@gmail.com.`,
       );
     } finally {
       setSending(false);
@@ -476,8 +476,8 @@ function Index() {
             </span>
             <div className="mt-6 inline-block name-plate neon-frame">
               <h1 className="w-fit max-w-full text-4xl leading-[1.05] font-bold tracking-tight text-balance sm:text-6xl lg:text-7xl">
-                <span className="brand-name animate-name-reveal" data-text="RAUNAK KUMAR SINGH">
-                  RAUNAK KUMAR SINGH
+                <span className="brand-name animate-name-reveal" data-text="PRIYANSHU SARASWAT">
+                  PRIYANSHU SARASWAT
                 </span>
               </h1>
             </div>
@@ -528,7 +528,7 @@ function Index() {
             </dl>
             <div className="mt-8 flex items-center gap-5 text-muted-foreground">
               <a
-                href="https://github.com/Raunaksingh236"
+                href="https://github.com/priyanshusaraswat"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -537,7 +537,7 @@ function Index() {
                 <Github size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/raunak-singh-68bb133b7/"
+                href="https://www.linkedin.com/in/priyanshu-saraswat-014a47410/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -546,7 +546,7 @@ function Index() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:singhraunak81026@gmail.com"
+                href="mailto:priyanshusaraswat51@gmail.com"
                 aria-label="Email"
                 className="transition-all hover:-translate-y-0.5 hover:text-primary"
               >
@@ -607,7 +607,7 @@ function Index() {
           </Reveal>
           <Reveal delay={120} className="space-y-5 text-muted-foreground">
             <p className="leading-relaxed">
-              I'm Raunak, a second-year B.Tech student passionate about technology and constantly
+              I'm Priyanshu, a second-year B.Tech student passionate about technology and constantly
               learning new skills. Right now I'm exploring Artificial Intelligence and Machine
               Learning, with a strong interest in Python, data analysis and software development.
             </p>
@@ -751,7 +751,7 @@ function Index() {
               ))}
             </ul>
             <a
-              href="https://github.com/Raunaksingh236/AI-ASSISTED-PORTFOLIO-GENERATOR"
+              href="https://github.com/priyanshusaraswat/AI-ASSISTED-PORTFOLIO-GENERATOR"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-primary/50 bg-secondary px-5 py-3 text-xs font-semibold tracking-[0.15em] text-primary uppercase transition-all hover:bg-primary hover:text-primary-foreground sm:w-auto"
@@ -830,17 +830,17 @@ function Index() {
               </h3>
               <div className="mt-6 space-y-3">
             {[
-              { icon: Mail, label: "singhraunak81026@gmail.com", href: "mailto:singhraunak81026@gmail.com" },
-              { icon: Phone, label: "9068293089", href: "tel:9068293089" },
+              { icon: Mail, label: "priyanshusaraswat51@gmail.com", href: "mailto:priyanshusaraswat51@gmail.com" },
+              { icon: Phone, label: "9548366654", href: "tel:9548366654" },
               {
                 icon: Github,
-                label: "github.com/Raunaksingh236",
-                href: "https://github.com/Raunaksingh236",
+                label: "github.com/priyanshusaraswat",
+                href: "https://github.com/priyanshusaraswat",
               },
               {
                 icon: Linkedin,
-                label: "linkedin.com/in/raunak-singh",
-                href: "https://www.linkedin.com/in/raunak-singh-68bb133b7/",
+                label: "linkedin.com/in/priyanshu-saraswat",
+                href: "https://www.linkedin.com/in/priyanshu-saraswat-014a47410/",
               },
             ].map((c) => (
               <a
@@ -930,7 +930,7 @@ function Index() {
                       <CheckCircle2 size={18} />
                     </span>
                     <p className="text-sm font-medium text-primary">
-                      THANK YOU!! Your message is submitted to Raunak
+                      THANK YOU!! Your message is submitted to Priyanshu
                     </p>
                   </div>
                 )}
@@ -944,14 +944,14 @@ function Index() {
       <footer className="border-t border-border py-10">
         <div className="mx-auto grid max-w-6xl gap-4 px-5 text-center sm:flex sm:items-center sm:justify-between sm:text-left">
           <div>
-            <p className="font-semibold">Raunak Kumar Singh</p>
+            <p className="font-semibold">Priyanshu Saraswat</p>
             <p className="text-xs text-muted-foreground">
               B.Tech AIML Student | Aspiring AI/ML Developer
             </p>
           </div>
           <div className="flex justify-center gap-5 text-muted-foreground">
             <a
-              href="https://github.com/Raunaksingh236"
+              href="https://github.com/priyanshusaraswat"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -960,7 +960,7 @@ function Index() {
               <Github size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/raunak-singh-68bb133b7/"
+              href="https://www.linkedin.com/in/priyanshu-saraswat-014a47410/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -968,12 +968,12 @@ function Index() {
             >
               <Linkedin size={18} />
             </a>
-            <a href="mailto:singhraunak81026@gmail.com" aria-label="Email" className="hover:text-primary">
+            <a href="mailto:priyanshusaraswat51@gmail.com" aria-label="Email" className="hover:text-primary">
               <Mail size={18} />
             </a>
           </div>
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Raunak Kumar Singh
+            © {new Date().getFullYear()} Priyanshu Saraswat
           </p>
         </div>
       </footer>
